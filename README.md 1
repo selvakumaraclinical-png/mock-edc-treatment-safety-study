@@ -1,4 +1,56 @@
 # Mock EDC Project – Treatment Safety Monitoring Study
+# Mock EDC Project – Treatment Safety Monitoring Study
+
+## Project Goal
+This is a practice project to understand Electronic Data Capture (EDC) workflows in Clinical Data Management (CDM). All study data used for practice are fictional.
+
+## eCRFs Practised
+
+### 1. Demographics
+- Subject ID
+- Date of Birth
+- Sex
+- Informed Consent Date
+
+### 2. Vitals
+- Visit Date
+- Systolic Blood Pressure
+- Diastolic Blood Pressure
+- Pulse
+- Temperature
+
+### 3. Adverse Events (AE)
+- AE Term
+- Start Date
+- End Date
+- Severity
+- Serious (Yes/No)
+- Outcome
+
+## Edit Checks Practised
+- Required-field checks
+- Systolic BP practice range: 60–250 mmHg
+- AE start date should not be earlier than informed consent date
+- Review missing or inconsistent data
+
+## Mock Query Practice
+- Missing pulse
+- Out-of-range blood pressure
+- Missing informed consent date
+- Inconsistent AE dates
+- Missing visit date
+
+## Key Learnings
+- eCRF data entry
+- Data validation and edit checks
+- Query identification and documentation
+- Importance of source data verification
+
+## Screenshots
+Screenshots of the Demographics, Vitals, and Adverse Events forms will be added to document the practice workflow.
+
+## Disclaimer
+This is a learning project using fictional practice data. It does not represent a live clinical trial or professional experience with a production EDC system.
 
 
 
